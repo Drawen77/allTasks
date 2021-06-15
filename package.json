@@ -1,0 +1,28 @@
+{
+  "name": "VueTest",
+  "templateId": "edetailer-template",
+  "version": "0.0.0",
+  "description": "Edetailer scaffolding template",
+  "main": "./build/dev/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.qapint.com:ewizardjs/templates/edetailer.git"
+  },
+  "author": "o.dordiuk &lt;o.dordiuk@viseven.com&gt;",
+  "license": "ISC",
+  "dependencies": {
+    "@blocks/module-placeholder": "git+https://git.qapint.com/ewizardjs/edetailer/blocks/module-placeholder.git#1.0.2",
+    "axios": "^0.21.1",
+    "ewizardjs": "git+https://git@git.qapint.com/ewizardjs/ewizardjs.git#5.5.1",
+    "vue-i18n": "~7.2.0",
+    "vuex": "~3.1.0",
+    "wiz-block": "git+https://git.qapint.com/ewizardjs/edetailer/components/wiz-block.git#1.0.1",
+    "wiz-button": "git+https://git@git.qapint.com/ewizardjs/edetailer/components/wiz-button.git#3.0.4",
+    "wiz-image": "git+https://git@git.qapint.com/ewizardjs/edetailer/components/wiz-image.git#1.4.4",
+    "wiz-list": "git+https://git.qapint.com/ewizardjs/edetailer/components/wiz-list.git",
+    "wiz-text": "git+https://git@git.qapint.com/ewizardjs/edetailer/components/wiz-text.git#2.0.1"
+  }
+}
